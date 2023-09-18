@@ -1,6 +1,6 @@
 .Imagem{
     width: 80px!important;
-    height: 60px!important;
+    height: 80px!important;
 }
 .div-todasimagens{
     display: grid;
@@ -16,9 +16,18 @@
     text-align: center;
 }
 
-@media  and (min-width: 1024px) {
-    .griding{
-        
+@media screen and (min-width: 1024px) {
+    .gridng{
+        background-color: #faecfc;
     }
+    .Imagem{
+        border: 3px solid rgb(31, 241, 224);
+        width: 180px!important;
+        height: 160px!important;
     
+    }
+    .titulo{ 
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+    }
 }
